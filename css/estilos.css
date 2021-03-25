@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  background-color: rgb(146, 187, 146);
+}
+
+.fila {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.navegacion,
+.navegacion-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.navegacion-logo img {
+  height: auto;
+  min-height: 39px;
+  min-width: 98px;
+  position: relative;
+  width: 100px;
+}
+
+.navegacion-izq {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.navegacion-der {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+}
+
+.navegacion-buscar {
+  position: relative;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.navegacion-izq,
+.nagevacion-der {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input-buscador {
+  border: 1px solid;
+  border-radius: 20px;
+  -webkit-box-shadow: var(--borderShadow);
+  box-shadow: var(--borderShadow);
+  display: block;
+  font-size: 0.8rem;
+  font-display: auto;
+  height: initial;
+  line-height: initial;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.6rem 0.6rem 0.6rem 1.2rem;
+}
+
+.contenedor {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tarjeta {
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.tarjeta-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.tarjeta-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+div {
+  display: block;
+}
+
+.content-tarjeta {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.centrar {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+h2 {
+    position: relative;
+    top: auto;
+    
+    padding: initial;
+    margin-top: 2rem;
+    padding-block-end: 10%;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 35px;
+    font-family: Impact, Charcoal, sans-serif;
+
+}
